@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 import sidespell.tech.webservices.R;
 import sidespell.tech.webservices.fragments.SimpleWeatherFragment;
@@ -24,12 +23,6 @@ public class DetailActivity extends AppCompatActivity {
         }
 
         int topicId = intent.getIntExtra(MainActivity.Topic.KEY, MainActivity.Topic.SIMPLE_WEATHER);
-        String topic = MainActivity.Topic.getName(topicId);
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(topic);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Fragment fragment;
 

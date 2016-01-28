@@ -19,10 +19,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         public static final String KEY = "topic";
 
         public static final int SIMPLE_WEATHER = 0;
-
-        public static String getName(int topicId) {
-            return topics[topicId];
-        }
     }
 
     @Override
