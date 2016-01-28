@@ -2,4 +2,11 @@
     <string name="app_name">Consuming Web Services</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="imgdesc_weather_icon">weather-icon</string>
+
+    <string name="weather_location_format" formatted="false">%s, %s</string>
+    <string name="details_format" formatted="false">%s\nHumidity: %d%%\nPressure: %d hPa</string>
+    <string name="temperature_format" formatted="false">%.2f \u2103</string>
+    <string name="error_failed_get_weather">Failed to retrieve current weather. Please try again later.</string>
 </resources>
